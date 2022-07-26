@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darkModeClassThatWorks {
+  @apply text-slate-900 dark:bg-slate-50
+  dark:text-white dark:bg-slate-900;
+}

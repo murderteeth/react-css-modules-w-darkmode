@@ -1,0 +1,12 @@
+.demo {
+  @apply w-1/2 h-full flex flex-col items-center justify-center;
+}
+
+.darkModeClassThatDoesntWork {
+  @apply text-slate-900 dark:bg-slate-50
+  dark:text-white dark:bg-slate-900;
+}
+
+.demo button {
+  @apply px-4 py-2 bg-amber-600 rounded;
+}
